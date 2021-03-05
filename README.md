@@ -1,0 +1,2 @@
+# nuconfig
+nushell configuration
