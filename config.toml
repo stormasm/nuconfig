@@ -1,0 +1,3 @@
+startup = [
+"source /j/tmp26/nuconfig/alias.nu",
+]
