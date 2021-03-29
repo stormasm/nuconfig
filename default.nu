@@ -23,6 +23,10 @@ def nada2 [
     }
 }
 
-def myls [x] {
+def mylsb [x] {
     ls $x | where size > 10kb
+}
+
+def mylss [x] {
+    ls $x | where size < 10kb
 }
