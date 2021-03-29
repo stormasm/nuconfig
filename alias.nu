@@ -13,8 +13,3 @@ alias nus = cd /j/tmp26/nuscripts
 alias nust = cd /j/tmp26/nutmp/scripts/test
 alias nutmp = cd /j/tmp26/nutmp
 alias nutop = cd /j/tmp26/nushell
-
-### git
-
-alias gs = git status
-alias gsl = git log --stat

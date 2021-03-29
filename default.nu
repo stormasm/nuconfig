@@ -30,3 +30,24 @@ def mylsb [x] {
 def mylss [x] {
     ls $x | where size < 10kb
 }
+
+def configpath [] {
+  cd $(echo $nu | get config-path | path dirname)
+}
+
+alias configp = configpath
+
+### copy the config.toml from the config-path to the github repo
+
+def nuconfigsave [] {
+  cd $(echo $nu | get config-path | path dirname)
+  cp config.toml /j/tmp26/nuconfig
+  cd /j/tmp26/nuconfig
+}
+
+### do a diff of the of the config.toml file to make sure they are the same
+
+def chkconfig [] {
+  let v1 =  $(echo $nu | get config-path | path dirname)
+  diff $v1 /j/tmp26/nuconfig/config.toml
+}
