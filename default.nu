@@ -55,3 +55,7 @@ def chkconfig [] {
   let v1 =  $(echo $nu | get config-path | path dirname)
   diff $v1 /j/tmp26/nuconfig/config.toml
 }
+
+def aliases [] {
+  echo $scope.aliases | pivot
+}
