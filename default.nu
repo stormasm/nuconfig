@@ -39,6 +39,10 @@ alias configp = configpath
 
 ### copy the config.toml from the config-path to the github repo
 
+### There are 2 ways to get to the config path
+### (1) cd $(echo $nu | get config-path | path dirname)
+### (2) cd $(config path | path dirname)
+
 def nuconfigsave [] {
   cd $(echo $nu | get config-path | path dirname)
   cp config.toml /j/tmp26/nuconfig
