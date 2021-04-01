@@ -31,6 +31,7 @@ def mylss [x] {
     ls $x | where size < 10kb
 }
 
+# Show the location of the config-path
 def configpath [] {
   cd $(echo $nu | get config-path | path dirname)
 }
