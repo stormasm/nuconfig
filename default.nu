@@ -1,5 +1,4 @@
-# This checks the -f switch to see if it was supplied
-# and tests the new $nothing variable
+# Checks the -f switch and tests the new $nothing variable
 def nada [
     --flat(-f)
 ] {
@@ -23,10 +22,12 @@ def nada2 [
     }
 }
 
+# simple ls example where size is > 10kb
 def mylsb [x] {
     ls $x | where size > 10kb
 }
 
+# simple ls example where size is < 10kb
 def mylss [x] {
     ls $x | where size < 10kb
 }
@@ -44,19 +45,20 @@ alias configp = configpath
 ### (1) cd $(echo $nu | get config-path | path dirname)
 ### (2) cd $(config path | path dirname)
 
+# save your config.toml file in nuconfig
 def nuconfigsave [] {
   cd $(echo $nu | get config-path | path dirname)
   cp config.toml /j/tmp26/nuconfig
   cd /j/tmp26/nuconfig
 }
 
-### do a diff of the of the config.toml file to make sure they are the same
-
+# do a diff of the of the config.toml file to make sure they are the same
 def chkconfig [] {
   let v1 =  $(echo $nu | get config-path | path dirname)
   diff $v1 /j/tmp26/nuconfig/config.toml
 }
 
+# simple command to show all of your aliases
 def aliases [] {
   echo $scope.aliases | pivot
 }

@@ -8,6 +8,7 @@ alias t = time
 ### nushell
 
 alias 26 = cd /j/tmp26
+alias nubug = cd /j/tmp26/nubug/issue-3248
 alias nuconfig = cd /j/tmp26/nuconfig
 alias nus = cd /j/tmp26/nuscripts
 alias nust = cd /j/tmp26/nutmp/scripts/test
