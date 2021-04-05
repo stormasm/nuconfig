@@ -5,6 +5,9 @@ alias rx = random integer
 alias s = source
 alias t = time
 
+### rust
+alias cb = cargo build
+
 ### nushell
 
 alias 26 = cd /j/tmp26
