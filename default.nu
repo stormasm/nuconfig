@@ -62,3 +62,8 @@ def chkconfig [] {
 def aliases [] {
   echo $scope.aliases | pivot
 }
+
+# simple command to show that the if command needs the else clause to work
+def ifme [] {
+  if $true { echo $true } { echo $false }
+}

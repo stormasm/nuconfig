@@ -1,6 +1,7 @@
 alias c = clear
 alias configpath = (config path | path dirname)
 alias h = history
+alias hc = help commands
 alias l = ls
 alias ll = ls -l
 alias rx = random integer
