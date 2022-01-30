@@ -12,8 +12,14 @@ alias cb = cargo build
 
 ### nushell
 
+alias eq = cd /j/tmp17/engine-q
 alias t26 = cd /j/tmp26
-alias nuconfig = cd /j/tmp17/nuconfig
+
+alias nutop = cd /j/tmp17/engine-q
+alias nuconfig = cd "/Users/ma/Library/Application Support/nushell"
+alias nuconfigme = cd /j/tmp17/nuconfig
+
+### alias nuconfig = cd /j/tmp17/nuconfig
 alias nus = cd /j/tmp17/nuscripts
 alias nutmp = cd /j/tmp17/nutmp
 
