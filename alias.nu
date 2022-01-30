@@ -23,6 +23,7 @@ alias ga = git add
 alias gc = git clone
 alias gco = git checkout
 alias gcom = git commit -m
+alias gcmw = git commit -m mw
 alias gd = git diff
 
 alias gp = git pull
@@ -32,3 +33,4 @@ alias grpo = git remote prune origin
 alias grso = git remote show origin
 
 alias gs = git status
+alias jjj = git push origin main
