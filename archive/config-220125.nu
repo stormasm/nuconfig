@@ -27,13 +27,6 @@ let $config = {
     text_style: dark_gray
      selected_text_style: green_reverse
    }
-  keybindings: {
-    name: complete_hint
-    modifier: none
-    keycode: tab
-    mode: emacs
-    event: {send: historyhintcomplete }
-   }
   use_grid_icons: $true
   footer_mode: always # always, never, auto, "5"
   animate_prompt: $false
