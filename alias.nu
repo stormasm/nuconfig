@@ -9,6 +9,9 @@ alias t = time
 
 ### rust
 alias cb = cargo build
+alias ct = cargo test
+alias cta = cargo test --all --all-features
+alias ctan = cargo test --all
 
 ### nushell
 
@@ -16,6 +19,8 @@ alias eq = cd /j/tmp17/engine-q
 alias t26 = cd /j/tmp26
 
 alias fil = cd /j/tmp17/engine-q/crates/nu-command/src/filters
+alias nucom = cd /j/tmp17/engine-q/crates/nu-command
+alias nucomt = cd /j/tmp17/engine-q/crates/nu-command/tests
 
 alias nutop = cd /j/tmp17/engine-q
 alias nuconfig = cd "/Users/ma/Library/Application Support/nushell"
