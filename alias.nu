@@ -39,7 +39,7 @@ alias gco = git checkout
 alias gcom = git commit -m
 alias gcmw = git commit -m mw
 alias gd = git diff
-
+alias gls = git log --stat
 alias gp = git pull
 alias gpo = git push origin
 alias gpro = git remote prune origin
@@ -48,3 +48,14 @@ alias grso = git remote show origin
 
 alias gs = git status
 alias jjj = git push origin main
+
+### plugins
+#
+#  To register a plugin
+#    (1) cbaf
+#    (2) cd target/debug
+#    (3) register -e capnp nu_plugin_query
+
+def chkplug [] {
+    help commands | where is_plugin == $true
+}
