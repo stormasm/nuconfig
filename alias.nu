@@ -18,6 +18,8 @@ alias ctan = cargo test --all
 alias eq = cd /j/tmp17/engine-q
 alias t26 = cd /j/tmp26
 
+alias nun = cd /j/tmp17/nunotes
+
 alias fil = cd /j/tmp17/engine-q/crates/nu-command/src/filters
 alias nucom = cd /j/tmp17/engine-q/crates/nu-command
 alias nucomt = cd /j/tmp17/engine-q/crates/nu-command/tests
