@@ -51,6 +51,15 @@ alias grso = git remote show origin
 alias gs = git status
 alias jjj = git push origin main
 
+
+let t1x = [[name, grade]; [Alice, A], [Betty, B], [Carl, C], [David, D], [Edward, E], [Frank, F]]
+alias l = ^ls -l
+alias t = date
+alias nuconfig = cd "/Users/ma/Library/Application Support/nushell"
+## test comment
+alias t17 = cd "/j/tmp17"
+alias nuconfigsave = cp config.nu /j/tmp17/nuconfig
+
 ### plugins
 #
 #  To register a plugin
