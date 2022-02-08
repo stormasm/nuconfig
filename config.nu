@@ -40,11 +40,3 @@ let $config = {
 }
 
 source /j/tmp17/nuconfig/alias.nu
-
-let t1x = [[name, grade]; [Alice, A], [Betty, B], [Carl, C], [David, D], [Edward, E], [Frank, F]]
-alias l = ^ls -l
-alias t = date
-alias nuconfig = cd "/Users/ma/Library/Application Support/nushell"
-## test comment
-alias t17 = cd "/j/tmp17"
-alias nuconfigsave = cp config.nu /j/tmp17/nuconfig
