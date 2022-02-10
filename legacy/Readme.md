@@ -15,3 +15,13 @@ startup = [
 "source /j/tmp26/nuconfig/git.nu",
 ]
 ```
+
+#### and after my recent changes
+
+```rust
+startup = [
+"source /j/tmp17/nuconfig/legacy/alias.nu",
+"source /j/tmp17/nuconfig/legacy/default.nu",
+"source /j/tmp17/nuconfig/legacy/git.nu",
+]
+```
