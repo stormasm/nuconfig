@@ -15,5 +15,5 @@ alias cb = cargo build
 
 alias 26 = cd /j/tmp26
 alias nuconfig = cd /j/tmp17/nuconfig
-alias nus = cd /j/tmp17/nuscripts/legacy
+alias nus = cd /j/tmp17/nu_scripts
 alias nutopp = cd /j/tmp26/nushell
