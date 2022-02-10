@@ -1,0 +1,5 @@
+startup = [
+"source /j/tmp26/nuconfig/alias.nu",
+"source /j/tmp26/nuconfig/default.nu",
+"source /j/tmp26/nuconfig/git.nu",
+]
