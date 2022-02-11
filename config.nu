@@ -39,4 +39,4 @@ let $config = {
   animate_prompt: $false
 }
 
-source /j/tmp17/nuconfig/alias.nu
+source ~/j/tmp17/nuconfig/alias.nu
