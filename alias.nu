@@ -15,23 +15,23 @@ alias ctan = cargo test --all
 
 ### nushell
 
-alias eq = cd /j/tmp17/engine-q
+alias eq = cd ~/j/tmp17/nushell
 alias t26 = cd /j/tmp26
 
-alias nun = cd /j/tmp17/nunotes
+alias nun = cd ~/j/tmp17/nunotes
 
-alias fil = cd /j/tmp17/engine-q/crates/nu-command/src/filters
-alias nucom = cd /j/tmp17/engine-q/crates/nu-command
-alias nucomt = cd /j/tmp17/engine-q/crates/nu-command/tests
-alias tff = cd /j/tmp17/engine-q/tests/fixtures/formats
+alias fil = cd ~/j/tmp17/nushell/crates/nu-command/src/filters
+alias nucom = cd ~/j/tmp17/nushell/crates/nu-command
+alias nucomt = cd ~/j/tmp17/nushell/crates/nu-command/tests
+alias tff = cd ~/j/tmp17/nushell/tests/fixtures/formats
 
-alias nutop = cd /j/tmp17/engine-q
+alias nutop = cd ~/j/tmp17/nushell
 alias nuconfig = cd "/Users/ma/Library/Application Support/nushell"
-alias nuconfigme = cd /j/tmp17/nuconfig
+alias nuconfigme = cd ~/j/tmp17/nuconfig
 
 ### alias nuconfig = cd /j/tmp17/nuconfig
-alias nus = cd /j/tmp17/nuscripts
-alias nutmp = cd /j/tmp17/nutmp
+alias nus = cd ~/j/tmp17/nuscripts
+alias nutmp = cd ~/j/tmp17/nutmp
 
 ### git
 
@@ -57,8 +57,8 @@ alias l = ^ls -l
 alias t = date
 alias nuconfig = cd "/Users/ma/Library/Application Support/nushell"
 ## test comment
-alias t17 = cd "/j/tmp17"
-alias nuconfigsave = cp config.nu /j/tmp17/nuconfig
+alias t17 = cd "~/j/tmp17"
+alias nuconfigsave = cp config.nu ~/j/tmp17/nuconfig
 
 ### plugins
 #
