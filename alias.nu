@@ -31,6 +31,7 @@ alias nuconfigme = cd ~/j/tmp17/nuconfig
 
 ### alias nuconfig = cd /j/tmp17/nuconfig
 alias nus = cd ~/j/tmp17/nuscripts
+alias nusn = cd ~/j/tmp17/nu_scripts
 alias nutmp = cd ~/j/tmp17/nutmp
 
 ### git
@@ -42,7 +43,12 @@ alias gcom = git commit -m
 alias gcmw = git commit -m mw
 alias gd = git diff
 alias gls = git log --stat
+
 alias gp = git pull
+alias gpeq = git pull https://github.com/nushell/nushell main
+alias gpnu = git pull https://github.com/nushell/nushell main
+alias gpnusn = git pull https://github.com/nushell/nu_scripts main
+
 alias gpo = git push origin
 alias gpro = git remote prune origin
 alias grpo = git remote prune origin
