@@ -37,6 +37,7 @@ alias nutmp = cd ~/j/tmp17/nutmp
 ### git
 
 alias ga = git add
+alias gb = git branch
 alias gc = git clone
 alias gco = git checkout
 alias gcom = git commit -m
