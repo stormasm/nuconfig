@@ -190,5 +190,3 @@ let config = {
   }
   quick_completions: $true
 }
-
-source ~/j/tmp17/nuconfig/alias.nu
