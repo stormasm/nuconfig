@@ -182,7 +182,7 @@ let config = {
     ]
 
     history_config: {
-      page_size: 10
+      page_size: 30
       selector: ":"
       text_style: "#ffbf00"
       selected_text_style: { fg: "#ffbf00" attr: r }
