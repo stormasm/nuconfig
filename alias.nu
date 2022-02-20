@@ -58,6 +58,7 @@ alias grso = git remote show origin
 alias gs = git status
 alias jjj = git push origin main
 
+alias cls = $"(ansi cls)(ansi clsb)(ansi reset)(ansi home)"
 
 let t1x = [[name, grade]; [Alice, A], [Betty, B], [Carl, C], [David, D], [Edward, E], [Frank, F]]
 alias l = ^ls -l
