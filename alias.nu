@@ -56,7 +56,7 @@ alias grpo = git remote prune origin
 alias grso = git remote show origin
 
 alias gs = git status
-alias jjj = git push origin main
+alias jjj = ^git push origin main
 
 alias cls = $"(ansi cls)(ansi clsb)(ansi reset)(ansi home)"
 
