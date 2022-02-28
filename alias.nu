@@ -1,3 +1,10 @@
+
+### file and directory locations
+
+alias j = cd ~/j/
+alias k = cd ~/k/
+alias dl = cd ~/k/dl
+
 alias c = clear
 alias configpath = (config path | path dirname)
 alias h = history
