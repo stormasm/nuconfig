@@ -1,9 +1,12 @@
 
 ### file and directory locations
 
+alias dl = cd ~/k/dl
+alias ds = cd ~/j/tmp99/dataset
 alias j = cd ~/j/
 alias k = cd ~/k/
-alias dl = cd ~/k/dl
+alias t99 = cd ~/j/tmp99
+
 
 alias c = clear
 alias configpath = (config path | path dirname)
@@ -11,6 +14,8 @@ alias h = history
 alias hc = help commands
 alias l = ls
 alias ll = ^ls -l
+alias lsr = ^ls -lR
+alias ltm = ^ls -lt
 alias s = source
 alias t = time
 
@@ -23,7 +28,7 @@ alias ctan = cargo test --all
 ### nushell
 
 alias eq = cd ~/j/tmp17/nushell
-alias t26 = cd /j/tmp26
+alias t26 = cd ~/j/tmp26
 
 alias nun = cd ~/j/tmp17/nunotes
 
