@@ -16,11 +16,13 @@ alias l = ls
 alias ll = ^ls -l
 alias lsr = ^ls -lR
 alias ltm = ^ls -lt
+alias rm = rm -q
 alias s = source
 alias t = time
 
 ### rust
 alias cb = cargo build
+alias cre = cargo run --example
 alias ct = cargo test
 alias cta = cargo test --all --all-features
 alias ctan = cargo test --all
