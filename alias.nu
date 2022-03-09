@@ -5,11 +5,10 @@ alias dl = cd ~/k/dl
 alias ds = cd ~/j/tmp99/dataset
 alias j = cd ~/j/
 alias k = cd ~/k/
-alias t99 = cd ~/j/tmp99
-
 
 alias c = clear
 alias configpath = (config path | path dirname)
+alias e = emacs -nw
 alias h = history
 alias hc = help commands
 alias l = ls
@@ -30,7 +29,6 @@ alias ctan = cargo test --all
 ### nushell
 
 alias eq = cd ~/j/tmp17/nushell
-alias t26 = cd ~/j/tmp26
 
 alias nun = cd ~/j/tmp17/nunotes
 
@@ -79,8 +77,16 @@ alias l = ^ls -l
 alias t = date
 alias nuconfig = cd "/Users/ma/Library/Application Support/nushell"
 ## test comment
-alias t17 = cd "~/j/tmp17"
+
 alias nuconfigsave = cp config.nu ~/j/tmp17/nuconfig
+
+
+### directory aliases
+
+alias t10 = cd ~/j/tmp10
+alias t17 = cd ~/j/tmp17
+alias t26 = cd ~/j/tmp26
+alias t99 = cd ~/j/tmp99
 
 ### plugins
 #
