@@ -100,3 +100,7 @@ alias t99 = cd ~/j/tmp99
 def chkplug [] {
     help commands | where is_plugin == $true
 }
+
+def hh [] {
+    history | last 28
+}
