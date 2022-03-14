@@ -29,7 +29,7 @@ alias ctan = cargo test --all
 ### nushell
 
 alias eq = cd ~/j/tmp17/nushell
-
+alias nubook = cd ~/j/tmp17/nushell.github.io
 alias nun = cd ~/j/tmp17/nunotes
 
 alias fil = cd ~/j/tmp17/nushell/crates/nu-command/src/filters
@@ -42,6 +42,8 @@ alias nuconfig = cd "/Users/ma/Library/Application Support/nushell"
 alias nuconfigme = cd ~/j/tmp17/nuconfig
 
 ### alias nuconfig = cd /j/tmp17/nuconfig
+alias nud = cd ~/j/tmp17/nudata
+alias nudata = cd ~/j/tmp17/nudata
 alias nus = cd ~/j/tmp17/nuscripts
 alias nusn = cd ~/j/tmp17/nu_scripts
 alias nutmp = cd ~/j/tmp17/nutmp
