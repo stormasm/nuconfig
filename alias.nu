@@ -5,6 +5,8 @@ alias dl = cd ~/k/dl
 alias ds = cd ~/j/tmp17/dataset
 alias j = cd ~/j/
 alias k = cd ~/k/
+alias pc = cd ~/j/tmp17/parse-camino
+alias shake = cd ~/j/tmp17/shakespeare
 
 alias c = clear
 alias configpath = (config path | path dirname)
