@@ -2,7 +2,7 @@
 ### file and directory locations
 
 alias dl = cd ~/k/dl
-alias ds = cd ~/j/tmp99/dataset
+alias ds = cd ~/j/tmp17/dataset
 alias j = cd ~/j/
 alias k = cd ~/k/
 
