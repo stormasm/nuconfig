@@ -100,7 +100,7 @@ alias t99 = cd ~/j/tmp99
 #    (3) register -e capnp nu_plugin_query
 
 def chkplug [] {
-    help commands | where is_plugin == $true
+    help commands | where is_plugin == true
 }
 
 def hh [] {
