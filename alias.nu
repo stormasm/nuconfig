@@ -2,11 +2,11 @@
 ### file and directory locations
 
 alias dl = cd ~/k/dl
-alias ds = cd ~/j/tmp17/dataset
+alias ds = cd ~/j/tmp17/dataset/csv
 alias j = cd ~/j/
 alias k = cd ~/k/
 alias pc = cd ~/j/tmp17/parse-camino
-alias shake = cd ~/j/tmp17/shakespeare
+alias shake = cd ~/j/tmp17/nuproj/shakespeare
 
 alias c = clear
 alias configpath = (config path | path dirname)
@@ -89,6 +89,7 @@ alias nuconfigsave = cp config.nu ~/j/tmp17/nuconfig
 
 alias t10 = cd ~/j/tmp10
 alias t17 = cd ~/j/tmp17
+alias t18 = cd ~/j/tmp18
 alias t26 = cd ~/j/tmp26
 alias t99 = cd ~/j/tmp99
 
