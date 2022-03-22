@@ -3,6 +3,7 @@
 
 alias dl = cd ~/k/dl
 alias ds = cd ~/j/tmp17/dataset/csv
+alias dv = cd ~/j/tmp99/datavault
 alias j = cd ~/j/
 alias k = cd ~/k/
 alias pc = cd ~/j/tmp17/parse-camino
@@ -10,6 +11,7 @@ alias shake = cd ~/j/tmp17/nuproj/shakespeare
 
 alias c = clear
 alias configpath = (config path | path dirname)
+alias du = ^du
 alias e = emacs -nw
 alias h = history
 alias hc = help commands
