@@ -31,6 +31,7 @@ alias t = time
 
 ### rust
 alias cb = cargo build
+alias cf = cargo fmt
 alias cre = cargo run --example
 alias ct = cargo test
 alias cta = cargo test --all --all-features
@@ -52,16 +53,18 @@ alias nucomt = cd ~/j/tmp17/nushell/crates/nu-command/tests
 alias nupro = cd ~/j/tmp17/nushell/crates/nu-protocol
 alias tff = cd ~/j/tmp17/nushell/tests/fixtures/formats
 
+### tmp17
+
 alias nutop = cd ~/j/tmp17/nushell
 alias nuconfig = cd "/Users/ma/Library/Application Support/nushell"
 alias nuconfigme = cd ~/j/tmp17/nuconfig
 
-### alias nuconfig = cd /j/tmp17/nuconfig
 alias nud = cd ~/j/tmp17/nudata
 alias nudata = cd ~/j/tmp17/nudata
 alias nus = cd ~/j/tmp17/nuscripts
 alias nusn = cd ~/j/tmp17/nu_scripts
 alias nutmp = cd ~/j/tmp17/nutmp
+alias rsql = cd ~/j/tmp17/rusqlite
 
 ### git
 
