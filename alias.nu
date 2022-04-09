@@ -6,8 +6,14 @@ alias ds = cd ~/j/tmp17/dataset/csv
 alias dv = cd ~/j/tmp99/datavault
 alias j = cd ~/j/
 alias k = cd ~/k/
+alias nuprom = cd ~/j/tmp17/nupro
+alias nuprome = cd ~/j/tmp17/nupro
 alias pc = cd ~/j/tmp17/parse-camino
+alias rex = cd ~/j/tmp17/rust-examples
+alias rexs = cd ~/j/tmp17/rust-examples/sqlite
 alias shake = cd ~/j/tmp17/nuproj/shakespeare
+
+### standard
 
 alias c = clear
 alias configpath = (config path | path dirname)
@@ -30,6 +36,10 @@ alias ct = cargo test
 alias cta = cargo test --all --all-features
 alias ctan = cargo test --all
 
+alias cnr = cargo nextest run
+alias cnrn = cargo nextest run --no-capture
+alias cnrno = cargo nextest run --no-capture
+
 ### nushell
 
 alias eq = cd ~/j/tmp17/nushell
@@ -39,6 +49,7 @@ alias nun = cd ~/j/tmp17/nunotes
 alias fil = cd ~/j/tmp17/nushell/crates/nu-command/src/filters
 alias nucom = cd ~/j/tmp17/nushell/crates/nu-command
 alias nucomt = cd ~/j/tmp17/nushell/crates/nu-command/tests
+alias nupro = cd ~/j/tmp17/nushell/crates/nu-protocol
 alias tff = cd ~/j/tmp17/nushell/tests/fixtures/formats
 
 alias nutop = cd ~/j/tmp17/nushell
