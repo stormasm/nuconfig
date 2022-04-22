@@ -123,3 +123,6 @@ def chkplug [] {
 def hh [] {
     history | last 28
 }
+
+### get rid of the purple timestamp on the right side
+let-env PROMPT_COMMAND_RIGHT = { "" }
