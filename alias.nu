@@ -131,5 +131,5 @@ def hh [] {
 let-env PROMPT_COMMAND_RIGHT = { "" }
 
 def hme [] {
-  history | get command
+  history | get command_line
 }
