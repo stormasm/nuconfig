@@ -9,6 +9,7 @@ alias k = cd ~/k/
 alias nuprom = cd ~/j/tmp17/nupro
 alias nuprome = cd ~/j/tmp17/nupro
 alias pc = cd ~/j/tmp17/parse-camino
+alias pol = cd ~/j/tmp06/polars
 alias rex = cd ~/j/tmp17/rust-examples
 alias rexs = cd ~/j/tmp17/rust-examples/sqlite
 alias shake = cd ~/j/tmp17/nuproj/shakespeare
@@ -50,6 +51,8 @@ alias nun = cd ~/j/tmp17/nunotes
 alias fil = cd ~/j/tmp17/nushell/crates/nu-command/src/filters
 alias nucom = cd ~/j/tmp17/nushell/crates/nu-command
 alias nucomt = cd ~/j/tmp17/nushell/crates/nu-command/tests
+alias nudf = cd ~/j/tmp17/nushell/crates/nu-command/src/dataframe
+alias nudfr = cd ~/j/tmp17/nushell/crates/nu-command/src/dataframe
 alias nupro = cd ~/j/tmp17/nushell/crates/nu-protocol
 alias tff = cd ~/j/tmp17/nushell/tests/fixtures/formats
 
@@ -126,3 +129,7 @@ def hh [] {
 
 ### get rid of the purple timestamp on the right side
 let-env PROMPT_COMMAND_RIGHT = { "" }
+
+def hme [] {
+  history | get command
+}
