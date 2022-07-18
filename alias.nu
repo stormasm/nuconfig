@@ -133,3 +133,7 @@ let-env PROMPT_COMMAND_RIGHT = { "" }
 def hme [] {
   history | get command
 }
+
+def hmei [] {
+  history | get command_line
+}
