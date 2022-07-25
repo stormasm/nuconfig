@@ -137,3 +137,7 @@ def hme [] {
 def hmei [] {
   history | get command_line
 }
+
+def stars [] {
+    fetch https://api.github.com/repos/nushell/nushell | get stargazers_count
+}
