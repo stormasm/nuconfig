@@ -106,11 +106,18 @@ alias nuconfigsave = cp config.nu ~/j/tmp17/nuconfig
 
 ### directory aliases
 
+alias t06 = cd ~/j/tmp06
 alias t10 = cd ~/j/tmp10
 alias t17 = cd ~/j/tmp17
 alias t18 = cd ~/j/tmp18
 alias t26 = cd ~/j/tmp26
 alias t99 = cd ~/j/tmp99
+
+### iox
+alias ioxg = cd ~/j/tmp06/influxdb_iox
+alias ioxnu = cd ~/j/tmp06/influxdb_iox/iox_nu
+alias nuiox = cd ~/j/tmp06/influxdb_iox/nu_iox/src/iox
+alias nuioxt = cd ~/j/tmp06/influxdb_iox/nu_iox
 
 ### plugins
 #
