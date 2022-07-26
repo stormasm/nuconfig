@@ -103,7 +103,6 @@ alias nuconfig = cd "/Users/ma/Library/Application Support/nushell"
 
 alias nuconfigsave = cp config.nu ~/j/tmp17/nuconfig
 
-
 ### directory aliases
 
 alias t06 = cd ~/j/tmp06
