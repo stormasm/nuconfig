@@ -114,6 +114,7 @@ alias t99 = cd ~/j/tmp99
 
 ### iox
 alias ioxg = cd ~/j/tmp06/influxdb_iox
+alias ioxn = cd ~/j/tmp06/ioxnotes
 alias ioxnu = cd ~/j/tmp06/influxdb_iox/iox_nu
 alias nuiox = cd ~/j/tmp06/influxdb_iox/nu_iox/src/iox
 alias nuioxt = cd ~/j/tmp06/influxdb_iox/nu_iox
