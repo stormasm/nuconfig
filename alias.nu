@@ -119,6 +119,11 @@ alias ioxnu = cd ~/j/tmp06/influxdb_iox/iox_nu
 alias nuiox = cd ~/j/tmp06/influxdb_iox/nu_iox/src/iox
 alias nuioxt = cd ~/j/tmp06/influxdb_iox/nu_iox
 
+### arrow and data fusion
+
+alias dfgt = cd ~/j/tmp06/arrow-datafusion
+alias dfg = cd ~/j/tmp06/arrow-datafusion/datafusion
+
 ### plugins
 #
 #  To register a plugin
