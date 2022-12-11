@@ -26,7 +26,6 @@ alias l = ls
 alias ll = ^ls -l
 alias lsr = ^ls -lR
 alias ltm = ^ls -lt
-alias rm = rm -q
 alias s = source
 alias t = time
 
