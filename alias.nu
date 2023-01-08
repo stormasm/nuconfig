@@ -106,6 +106,7 @@ alias nuconfigsave = cp config.nu ~/j/tmp17/nuconfig
 
 alias t06 = cd ~/j/tmp06
 alias t10 = cd ~/j/tmp10
+alias t14 = cd ~/j/tmp14
 alias t17 = cd ~/j/tmp17
 alias t18 = cd ~/j/tmp18
 alias t26 = cd ~/j/tmp26
