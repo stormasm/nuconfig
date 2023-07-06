@@ -17,7 +17,7 @@ alias shake = cd ~/j/tmp17/nuproj/shakespeare
 ### standard
 
 alias c = clear
-alias configpath = (config path | path dirname)
+# alias configpath = (config path | path dirname)
 alias du = ^du
 alias e = emacs -nw
 alias h = history
@@ -26,7 +26,7 @@ alias l = ls
 alias ll = ^ls -l
 alias lsr = ^ls -lR
 alias ltm = ^ls -lt
-alias s = source
+# alias s = source
 alias t = time
 
 ### rust
@@ -92,7 +92,7 @@ alias grso = git remote show origin
 alias gs = git status
 alias jjj = ^git push origin main
 
-alias cls = $"(ansi cls)(ansi clsb)(ansi reset)(ansi home)"
+#alias cls = $"(ansi cls)(ansi clsb)(ansi reset)(ansi home)"
 
 let t1x = [[name, grade]; [Alice, A], [Betty, B], [Carl, C], [David, D], [Edward, E], [Frank, F]]
 alias l = ^ls -l
@@ -140,7 +140,7 @@ def hh [] {
 }
 
 ### get rid of the purple timestamp on the right side
-let-env PROMPT_COMMAND_RIGHT = { "" }
+#let-env PROMPT_COMMAND_RIGHT = { "" }
 
 def hme [] {
   history | get command
@@ -153,3 +153,9 @@ def hmei [] {
 def stars [] {
     fetch https://api.github.com/repos/nushell/nushell | get stargazers_count
 }
+
+def cls [] {
+    $"(ansi cls)(ansi clsb)(ansi reset)(ansi home)"
+}
+
+$env.PROMPT_COMMAND_RIGHT = { "" }
