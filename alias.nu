@@ -151,7 +151,7 @@ def hmei [] {
 }
 
 def stars [] {
-    fetch https://api.github.com/repos/nushell/nushell | get stargazers_count
+    http get https://api.github.com/repos/nushell/nushell | get stargazers_count
 }
 
 def cls [] {
