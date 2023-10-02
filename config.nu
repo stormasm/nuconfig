@@ -9,3 +9,4 @@ $env.config = {
   # true or false to enable or disable the welcome banner at startup
   show_banner: false
 }
+source ~/j/tmp17/nuconfig/alias.nu

@@ -115,9 +115,9 @@ alias t99 = cd ~/j/tmp99
 ### iox
 alias ioxg = cd ~/j/tmp06/influxdb_iox
 
-alias iox = ./target/debug/influxdb_iox
-alias iox01 = ./target/debug/influxdb_iox -vv write company_sensors test_fixtures/lineproto/metrics.lp --host http://localhost:8080
-alias iox02 = ./target/debug/influxdb_iox query company_sensors "SELECT * FROM cpu LIMIT 10"
+alias iox   = ./target/debug/influxdb_iox
+alias iox01 = iox -vv write company_sensors test_fixtures/lineproto/metrics.lp --host http://localhost:8080
+alias iox02 = iox query company_sensors "SELECT * FROM cpu LIMIT 10"
 
 alias ioxn = cd ~/j/tmp06/ioxnotes
 alias ioxnu = cd ~/j/tmp06/influxdb_iox/iox_nu
