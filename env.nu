@@ -1,4 +1,4 @@
-$env.NUPM_HOME = ($nu.default-config-dir | path join "nupm")
+$env.NUPM_HOME = ($nu.home-path | path join ".nupm")
 
 $env.NU_LIB_DIRS = [
     ($env.NUPM_HOME | path join "modules")

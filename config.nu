@@ -9,4 +9,11 @@ $env.config = {
   # true or false to enable or disable the welcome banner at startup
   show_banner: false
 }
+
+def get-nupm-home []: nothing -> path {
+    $env.NUPM_HOME? | default ($nu.home-path | path join ".nupm") | path expand }
+
+get-nupm-home
+use nupm
+
 source ~/j/tmp17/nuconfig/alias.nu
