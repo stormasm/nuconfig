@@ -15,5 +15,6 @@ def get-nupm-home []: nothing -> path {
 
 get-nupm-home
 use nupm
+use nu-git-manager *
 
 source ~/j/tmp17/nuconfig/alias.nu

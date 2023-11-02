@@ -129,6 +129,17 @@ alias nuioxt = cd ~/j/tmp06/influxdb_iox/nu_iox
 alias dfgt = cd ~/j/tmp06/arrow-datafusion
 alias dfg = cd ~/j/tmp06/arrow-datafusion/datafusion
 
+### nu-git-manager
+alias ngm = cd ~/j/tmp17/nu-git-manager
+alias ngmg = cd ~/j/tmp17/nu-git-manager
+alias gmg = cd ~/j/tmp17/nu-git-manager
+alias nupmg = cd ~/j/tmp17/nupm
+alias pmg = cd ~/j/tmp17/nupm
+alias gpm = cd ~/j/tmp17/nupm
+
+alias gpgm = git pull https://github.com/amtoine/nu-git-manager main
+alias gppm = git pull https://github.com/nushell/nupm main
+
 ### plugins
 #
 #  To register a plugin
@@ -163,7 +174,14 @@ def cls [] {
     $"(ansi cls)(ansi clsb)(ansi reset)(ansi home)"
 }
 
-$env.PROMPT_COMMAND_RIGHT = { "" }
+def cpconfig [] {
+  cp $nu.config-path $env.NU_CONFIG_ME
+  cp $nu.env-path $env.NU_CONFIG_ME
+  cp $env.alias-path $env.NU_CONFIG_ME
+  sum $nu.config-path ($env.NU_CONFIG_ME | path join "config.nu")
+  sum $nu.env-path ($env.NU_CONFIG_ME | path join "env.nu")
+  sum $env.alias-path ($env.NU_CONFIG_ME | path join "alias.nu")
+}
 
 # The default config record. This is where much of your global configuration is setup.
 $env.config = {
