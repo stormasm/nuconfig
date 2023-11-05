@@ -133,6 +133,9 @@ alias dfg = cd ~/j/tmp06/arrow-datafusion/datafusion
 alias ngm = cd ~/j/tmp17/nu-git-manager
 alias ngmg = cd ~/j/tmp17/nu-git-manager
 alias gmg = cd ~/j/tmp17/nu-git-manager
+alias ngmi = nupm install --path ~/j/tmp17/nu-git-manager --force
+
+### nupm
 alias nupmg = cd ~/j/tmp17/nupm
 alias pmg = cd ~/j/tmp17/nupm
 alias gpm = cd ~/j/tmp17/nupm
