@@ -140,6 +140,8 @@ alias nupmg = cd ~/j/tmp17/nupm
 alias pmg = cd ~/j/tmp17/nupm
 alias gpm = cd ~/j/tmp17/nupm
 
+alias nut = nupm test
+
 alias gpgm = git pull https://github.com/amtoine/nu-git-manager main
 alias gppm = git pull https://github.com/nushell/nupm main
 
