@@ -183,6 +183,13 @@ def scopemodstd [] {
   scope modules | where name =~ '^std' | get submodules.0
 }
 
+def sumconfig [] {
+  sum $nu.config-path ($env.NU_CONFIG_ME | path join "config.nu")
+  sum $nu.env-path ($env.NU_CONFIG_ME | path join "env.nu")
+  sum $env.alias-path ($env.NU_CONFIG_ME | path join "alias.nu")
+  sum $env.nupm-path ($env.NU_CONFIG_ME | path join "nupm.nu")
+}
+
 def cpconfig [] {
   cp $nu.config-path $env.NU_CONFIG_ME
   cp $nu.env-path $env.NU_CONFIG_ME
