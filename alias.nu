@@ -179,6 +179,10 @@ def cls [] {
     $"(ansi cls)(ansi clsb)(ansi reset)(ansi home)"
 }
 
+def scopemodstd [] {
+  scope modules | where name =~ '^std' | get submodules.0
+}
+
 def cpconfig [] {
   cp $nu.config-path $env.NU_CONFIG_ME
   cp $nu.env-path $env.NU_CONFIG_ME
