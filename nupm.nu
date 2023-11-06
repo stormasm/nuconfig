@@ -12,3 +12,7 @@ def install-nupm [] {
 def install-nu-git-manager [] {
   nupm install --path /Users/ma/j/tmp17/nu-git-manager --force
 }
+
+def install-ngm [] {
+  nupm install --path /Users/ma/j/tmp17/nu-git-manager --force
+}
