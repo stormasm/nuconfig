@@ -195,10 +195,7 @@ def cpconfig [] {
   cp $nu.env-path $env.NU_CONFIG_ME
   cp $env.alias-path $env.NU_CONFIG_ME
   cp $env.nupm-path $env.NU_CONFIG_ME
-  sum $nu.config-path ($env.NU_CONFIG_ME | path join "config.nu")
-  sum $nu.env-path ($env.NU_CONFIG_ME | path join "env.nu")
-  sum $env.alias-path ($env.NU_CONFIG_ME | path join "alias.nu")
-  sum $env.nupm-path ($env.NU_CONFIG_ME | path join "nupm.nu")
+  sumconfig
 }
 
 # The default config record. This is where much of your global configuration is setup.
