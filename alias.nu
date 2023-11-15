@@ -140,6 +140,8 @@ alias nupmg = cd ~/j/tmp17/nupm
 alias pmg = cd ~/j/tmp17/nupm
 alias gpm = cd ~/j/tmp17/nupm
 
+alias installnupm = nupm install --force --path .
+
 alias nut = nupm test
 
 alias gpgm = git pull https://github.com/amtoine/nu-git-manager main
@@ -196,6 +198,13 @@ def cpconfig [] {
   cp $env.alias-path $env.NU_CONFIG_ME
   cp $env.nupm-path $env.NU_CONFIG_ME
   sumconfig
+}
+
+def cpconfig-reverse [] {
+  cp ($env.NU_CONFIG_ME | path join "config.nu") $nu.default-config-dir
+  cp ($env.NU_CONFIG_ME | path join "env.nu") $nu.default-config-dir
+  cp ($env.NU_CONFIG_ME | path join "alias.nu") $nu.default-config-dir
+  cp ($env.NU_CONFIG_ME | path join "nupm.nu") $nu.default-config-dir
 }
 
 # The default config record. This is where much of your global configuration is setup.
