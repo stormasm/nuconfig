@@ -10,18 +10,5 @@ $env.config = {
   show_banner: false
 }
 
-def get-nupm-home []: nothing -> path {
-    $env.NUPM_HOME? | default ($nu.home-path | path join ".nupm") | path expand }
-
-get-nupm-home
-use nupm
-
-def nupm-ngm [] {
-  nupm install --path /Users/ma/j/tmp17/nu-git-manager --force
-  use nu-git-manager *
-}
-
-use nu-git-manager *
-
 #source ~/j/tmp17/nuconfig/alias.nu
 source "/Users/ma/Library/Application Support/nushell/alias.nu"
