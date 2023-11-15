@@ -205,6 +205,7 @@ def cpconfig-reverse [] {
   cp ($env.NU_CONFIG_ME | path join "env.nu") $nu.default-config-dir
   cp ($env.NU_CONFIG_ME | path join "alias.nu") $nu.default-config-dir
   cp ($env.NU_CONFIG_ME | path join "nupm.nu") $nu.default-config-dir
+  sumconfig
 }
 
 # The default config record. This is where much of your global configuration is setup.
