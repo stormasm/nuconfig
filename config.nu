@@ -10,5 +10,7 @@ $env.config = {
   show_banner: false
 }
 
+use nu-git-manager *
+
 #source ~/j/tmp17/nuconfig/alias.nu
 source "/Users/ma/Library/Application Support/nushell/alias.nu"
