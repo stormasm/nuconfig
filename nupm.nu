@@ -18,16 +18,10 @@ def install-ngm [] {
 }
 
 def get-nupm-home []: nothing -> path {
-    $env.NUPM_HOME? | default ($nu.home-path | path join ".nupm") | path expand }
-
-#cd get-nupm-home
-#use nupm
-
-def nupm-ngm [] {
-  nupm install --path /Users/ma/j/tmp17/nu-git-manager --force
-  #use nu-git-manager *
+    $env.NUPM_HOME? | default ($nu.home-path | path join ".nupm") | path expand
 }
 
-def usengm [] {
-  use nu-git-manager *
-}
+cd /Users/ma/j/tmp17/nupm
+use nupm
+cd /Users/ma/j/tmp17/nu-git-manager
+use nu-git-manager *
