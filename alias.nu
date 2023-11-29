@@ -32,6 +32,7 @@ alias t = time
 ### rust
 alias cb = cargo build
 alias cf = cargo fmt
+alias cr = cargo run
 alias cre = cargo run --example
 alias ct = cargo test
 alias cta = cargo test --all --all-features
