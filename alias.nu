@@ -45,6 +45,7 @@ alias cnrno = cargo nextest run --no-capture
 ### nushell
 
 alias eq = cd ~/j/tmp17/nushell
+alias rl = cd ~/j/tmp17/reedline
 alias nubook = cd ~/j/tmp17/nushell.github.io
 alias nuno = cd ~/j/tmp17/nunotes
 
@@ -83,6 +84,7 @@ alias gls = git log --stat
 alias gp = git pull
 alias gpeq = git pull https://github.com/nushell/nushell main
 alias gpnu = git pull https://github.com/nushell/nushell main
+alias gprl = git pull https://github.com/nushell/reedline main
 alias gpnusn = git pull https://github.com/nushell/nu_scripts main
 
 alias gpo = git push origin
@@ -207,10 +209,4 @@ def cpconfig-reverse [] {
   cp ($env.NU_CONFIG_ME | path join "alias.nu") $nu.default-config-dir
   cp ($env.NU_CONFIG_ME | path join "nupm.nu") $nu.default-config-dir
   sumconfig
-}
-
-# The default config record. This is where much of your global configuration is setup.
-$env.config = {
-  # true or false to enable or disable the welcome banner at startup
-  show_banner: false
 }
