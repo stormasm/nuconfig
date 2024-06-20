@@ -132,6 +132,9 @@ alias nuioxt = cd ~/j/tmp06/influxdb_iox/nu_iox
 alias dfgt = cd ~/j/tmp06/arrow-datafusion
 alias dfg = cd ~/j/tmp06/arrow-datafusion/datafusion
 
+### new-nu-parser
+alias nnpgo = cd ~/j/tmp16/new-nu-parser
+
 ### nu-git-manager
 alias ngm = cd ~/j/tmp17/nu-git-manager
 alias ngmg = cd ~/j/tmp17/nu-git-manager
