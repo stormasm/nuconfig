@@ -26,7 +26,7 @@ alias l = ls
 alias ll = ^ls -l
 alias lsr = ^ls -lR
 alias ltm = ^ls -lt
-# alias s = source
+alias shs = python3 -m http.server 3000
 alias t = time
 
 ### rust
@@ -114,6 +114,9 @@ alias t17 = cd ~/j/tmp17
 alias t18 = cd ~/j/tmp18
 alias t26 = cd ~/j/tmp26
 alias t99 = cd ~/j/tmp99
+
+### scripts
+alias wgo = cd ~/j/tmp17/nutmp/scripts/weather
 
 ### iox
 alias ioxg = cd ~/j/tmp06/influxdb_iox
