@@ -2,6 +2,7 @@
 $env.config.show_banner = false
 
 ### so the "view blocks" command doesn't show cruft
+### for more details see core team channel 12/19/24
 $env.config.hooks.display_output = { if (term size).columns >= 100 { table -e } else { table } }
 
 def cls [] {
