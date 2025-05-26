@@ -11,4 +11,9 @@ def cls [] {
 
 $env.PROMPT_COMMAND_RIGHT = { "" }
 
+const NU_PLUGIN_DIRS = [
+  ($nu.current-exe | path dirname)
+  ...$NU_PLUGIN_DIRS
+]
+
 source "/Users/ma/j/tmp17/nuconfig/alias.nu"
