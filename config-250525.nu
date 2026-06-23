@@ -17,4 +17,3 @@ const NU_PLUGIN_DIRS = [
 ]
 
 source "/Users/ma/j/tmp17/nuconfig/alias.nu"
-source "~/.cargo/env.nu"
