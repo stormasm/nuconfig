@@ -47,7 +47,7 @@ alias cnrno = cargo nextest run --no-capture
 alias eq = cd ~/j/tmp17/nushell
 alias rl = cd ~/j/tmp17/reedline
 alias nubook = cd ~/j/tmp17/nushell.github.io
-alias nuno = cd ~/j/tmp17/nunotes
+alias nuno = cd ~/j/tmp99/nunotes
 
 alias fil = cd ~/j/tmp17/nushell/crates/nu-command/src/filters
 alias nucom = cd ~/j/tmp17/nushell/crates/nu-command
